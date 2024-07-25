@@ -1,5 +1,14 @@
 # create-terraform-remote-state-aws
 
+## Run project
+You need to authenticate on AWS and run the following commands.
+
+```
+terraform init
+terraform plan -out remote-state.plan
+terraform apply remote-state.plan
+```
+
 ## Requirements
 
 | Name | Version |
